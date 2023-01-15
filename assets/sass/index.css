@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #1d2025;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffc600;
+  transition: all 0.4s ease;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #ffc600;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.4s linear;
+  color: #07294d;
+  cursor: pointer;
+}
+
+.btn-brand {
+  background-color: #ffc600;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn-brand:hover {
+  color: #ffc600;
+  border-color: #ffc600;
+  background-color: #07294d;
+}
+
+.bg_cover {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*=====================================================navbar section========================================*/
+.navbar {
+  background-color: white;
+}
+
+.navbar .nav-item .nav-link {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.navbar .nav-item .nav-link.active {
+  color: gold;
+  font-weight: 900;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: gold !important;
+}
+
+.dropdown-item:hover {
+  color: gold;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/*=====================================================about section========================================*/
+#abt:after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  display: block;
+  background-color: gold;
+}
+
+#abt {
+  color: #07294d;
+}
+
+#about {
+  background: url(../images/about/bg-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/*=====================================================topnav section========================================*/
+#topnav .header-contact a {
+  color: white;
+}
+#topnav .header-contact i {
+  color: white;
+}
+
+/*=====================================================nav dropdown section========================================*/
+.dropdown .dropdown-menu .dropdown-item.active {
+  color: gold;
+  font-weight: 900;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: #07294d;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+  color: #ffc600 !important;
+}
+.dropdown .dropdown-menu .li {
+  text-transform: uppercase;
+}
+
+/*=====================================================carousel section========================================*/
+.c-img {
+  height: 80vh;
+}
+
+.c-overlay {
+  filter: brightness(0.7);
+}
+
+.carousel-inner {
+  position: relative;
+}
+.carousel-inner .carousel-caption {
+  position: absolute;
+  left: -400px;
+  top: 70px;
+}
+.carousel-inner .carousel-caption p {
+  max-width: 500px;
+  color: white;
+  margin: auto;
+}
+.carousel-inner .carousel-caption h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#A h3:hover {
+  color: #ffc600;
+}
+
+/*=====================================================scholarship section========================================*/
+#scholarship #scholarship1 {
+  background-color: #07294d;
+  padding: 50px;
+}
+#scholarship #scholarship1 h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+#scholarship #scholarship1 p {
+  color: white;
+}
+#scholarship #scholarship2 {
+  background-color: rgba(7, 41, 77, 0.8705882353);
+  padding: 50px;
+}
+#scholarship #scholarship2 h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+#scholarship #scholarship2 p {
+  color: white;
+}
+
+/*=====================================================course section========================================*/
+#course:after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  display: block;
+  background-color: gold;
+}
+
+#our_course #course {
+  color: #07294d;
+}
+#our_course .card {
+  position: relative;
+}
+#our_course .card .price span {
+  color: #07294d;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 70px;
+  height: 70px;
+  background-color: #ffc600;
+  border-radius: 100px;
+  padding: 15px;
+  position: absolute;
+  left: 200px;
+  top: -1px;
+}
+#our_course .card #href h4:hover {
+  color: #ffc600;
+}
+
+/*=====================================================facilities section========================================*/
+#facilities:after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  display: block;
+  background-color: gold;
+}
+
+#_facilities #facilities {
+  color: #07294d;
+}
+#_facilities .fact {
+  position: relative;
+}
+#_facilities .fact #text {
+  background-color: white;
+  padding: 15px 60px;
+  border-radius: 5px;
+  position: absolute;
+  left: 30px;
+  top: 200px;
+}
+#_facilities .fact #text a h6 {
+  font-weight: 900;
+}
+#_facilities .fact #text a h6:hover {
+  color: #ffc600;
+}
+
+/*=====================================================publication section========================================*/
+#tes:after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  display: block;
+  background-color: white;
+}
+
+#testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.473)), url(../images/bg-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+#testimonial #tes {
+  color: white;
+}
+#testimonial .testimonial1 #tesimg {
+  position: relative;
+}
+#testimonial .testimonial1 .icon {
+  background-color: #ffc600;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 70px;
+  top: -110px;
+}
+
+#con {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 5rem 0.5rem;
+}/*# sourceMappingURL=index.css.map */
