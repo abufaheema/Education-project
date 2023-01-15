@@ -36,6 +36,10 @@ a:hover {
   padding-bottom: 100px;
 }
 
+.section-padding1 {
+  padding-top: 100px;
+}
+
 .btn {
   padding: 10px 20px;
   text-align: center;
@@ -147,7 +151,7 @@ a:hover {
 
 /*=====================================================carousel section========================================*/
 .c-img {
-  height: 80vh;
+  height: 60vh;
 }
 
 .c-overlay {
@@ -173,6 +177,19 @@ a:hover {
   font-weight: 600;
 }
 
+@media (max-width: 576px) {
+  .carousel-inner {
+    position: relative;
+  }
+  .carousel-caption {
+    position: absolute !important;
+    left: 2px !important;
+    top: 14px !important;
+  }
+  .carousel-caption p {
+    display: none;
+  }
+}
 #A h3:hover {
   color: #ffc600;
 }
@@ -228,8 +245,8 @@ a:hover {
   border-radius: 100px;
   padding: 15px;
   position: absolute;
-  left: 200px;
-  top: -1px;
+  left: 250px;
+  top: 229px;
 }
 #our_course .card #href h4:hover {
   color: #ffc600;
@@ -282,4 +299,100 @@ a:hover {
 }
 #latest .latecol2-text a h4:hover {
   color: #ffc600;
+}
+
+.footer-top .list-inline .list-inline-item a i {
+  color: white;
+  background-color: #021d3a;
+  padding: 10px;
+  border-radius: 50px;
+}
+.footer-top .list-inline .list-inline-item a i:hover {
+  background-color: #ffc600;
+  color: black;
+}
+.footer-top .footer-link #list li a {
+  color: white;
+}
+.footer-top .footer-link #list li a:hover {
+  color: #ffc600;
+}
+
+/*=====================================================Design section========================================*/
+body {
+  background-color: rgba(33, 37, 41, 0.2470588235);
+}
+
+#cat_section .cat .cat_img {
+  position: relative;
+}
+#cat_section .cat .cat_text {
+  position: relative;
+  left: 10px;
+  bottom: 70px;
+}
+#cat_section .cat .cat_text h5 {
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+#cat_section .cat .cat_text h5:hover {
+  color: #ffc600;
+}
+#cat_section #form input[type=text], #cat_section #form input[type=email], #cat_section #form input[type=number] {
+  height: 50px;
+  width: 400px;
+  padding: 20px;
+  border: none;
+}
+#cat_section #form input:focus {
+  outline: none;
+}
+
+/*=====================================================Category section========================================*/
+.course-sect {
+  background-color: #021d3a;
+  width: 40%;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  left: 700px;
+  bottom: 145px;
+}
+.course-sect h5 {
+  color: white;
+}
+
+/*=====================================================Counting section========================================*/
+#counting {
+  background: linear-gradient(to right, rgba(2, 29, 58, 0.7137254902), rgba(2, 29, 58, 0.6352941176)), url(../images/bg-2.jpg);
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+/*=====================================================Counting2 section========================================*/
+#count2 {
+  background-color: white;
+}
+#count2 .count-bg {
+  background: linear-gradient(to right, rgba(2, 29, 58, 0.2274509804), rgba(2, 29, 58, 0.9176470588)), url(../images/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+  color: white;
+}
+#count2 .count-bg .count-text2 a h3:hover {
+  color: #ffc600 !important;
+}
+
+/*=====================================================footer section========================================*/
+#footsection {
+  position: relative;
+}
+#footsection #last-child {
+  position: absolute;
+  left: 1230px;
+  top: 200px;
 }/*# sourceMappingURL=index.css.map */
