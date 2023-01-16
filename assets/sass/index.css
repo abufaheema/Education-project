@@ -454,4 +454,14 @@ body {
 }
 #accordionExample #accorr_btn small {
   color: white;
+}
+
+/*=====================================================coursehtml section========================================*/
+#course_2 .course_intro .course_form input {
+  background-color: red;
+  width: 150px !important;
+}
+#course_2 .course_intro .course_form button i {
+  background-color: red;
+  border: none;
 }/*# sourceMappingURL=index.css.map */
