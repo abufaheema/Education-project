@@ -436,9 +436,22 @@ body {
 
 /*=====================================================ABOUT.HTML section========================================*/
 #about_hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/archi-5.jpg);
+  background-image: linear-gradient(#021d3a, rgba(2, 29, 58, 0.6784313725)), url(../images/page-banner-1.jpg);
   min-height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/*=====================================================privacy section========================================*/
+#privacy ul li a h5:hover {
+  color: #ffc600;
+}
+
+/*=====================================================faq section========================================*/
+#accordionExample #accorr_btn {
+  background-color: #021d3a;
+}
+#accordionExample #accorr_btn small {
+  color: white;
 }/*# sourceMappingURL=index.css.map */
