@@ -182,26 +182,26 @@ a:hover{
     filter: brightness(0.7);
 }
 
-.carousel-inner{
-    position: relative;
+// .carousel-inner{
+//     position: relative;
     
-    .carousel-caption{
-        position: absolute;
-        left: -400px;
-        top:70px;
-        p{
+//     .carousel-caption{
+//         position: absolute;
+//         left: -400px;
+//         top:70px;
+//         p{
             
-                max-width: 500px;
-                color: white;
-                margin: auto;
-        }
-        h2{
-            color: white;
-    font-size: 40px;
-    font-weight: 600;
-        }
-    }
-}
+//                 max-width: 500px;
+//                 color: white;
+//                 margin: auto;
+//         }
+//         h2{
+//             color: white;
+//     font-size: 40px;
+//     font-weight: 600;
+//         }
+//     }
+// }
 @media (max-width:576px) {
     .carousel-inner{
         position: relative;
@@ -520,7 +520,98 @@ body{
 
 
 
- 
- 
+
+/*=====================================================INDEX3 section========================================*/
+
+#index3_hero{
+    background: url(../images/slider/s-3.jpg);
+    filter: brightness(0.8);
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+
+    .index3_text{
+        background-color: #021d3a;
+        padding: 80px;
+        width: 70%;
+        
+
+        h2,h5{
+            color: white;
+        }
+
+        .index3_button{
+            width: 70%;
+            .input-group{
+                margin-left: 100px;
+                
+            }
+        }
+    }
 
 
+
+
+}
+@media (max-width:576px) {
+    .index3_text .index3_button{
+        width: 100%;
+    }
+    
+    
+}
+
+
+ 
+/*=====================================================Design section========================================*/
+#index3_design{
+    .cat{
+        .cat_img{
+            position: relative;
+        }
+
+        .cat_text{
+            position: relative;
+            left: 10px;
+            bottom: 70px;
+            h5{
+                color: white;
+                transition: 0.2s ease-in-out;
+                &:hover{
+                    color: #ffc600;
+                }
+            }
+        }
+        
+    }
+
+   
+}
+
+
+
+/*=====================================================index4 section========================================*/
+.c-img{
+    height: 80vh;
+}
+.c-overlay{
+    filter: brightness(0.7);
+}
+
+
+
+
+
+ 
+/*=====================================================ABOUT.HTML section========================================*/
+
+#about_hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../images/archi-5.jpg);
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
